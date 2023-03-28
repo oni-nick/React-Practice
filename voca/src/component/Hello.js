@@ -1,20 +1,22 @@
 import { useState } from 'react';
 
-export default function Hello() {
+export default function Hello(props) {
     const [nameState, nameStateChange] = useState('마이크');
-    let name = "Mike";
+    const [age, ageChange] = useState(props.age)
 
-    function ChangeName(){
-        name = name === 'Mike' ? 'Nick' : 'Mike';
-        document.getElementById("name").innerText = name;
-        console.log(name)
-    }
+    console.log(props)
+    
     return(  
         <div>
-            <h3 id="name">{name}</h3>
-            <h3>{nameState}</h3>
-            <button onClick={ChangeName}>Change</button>
-            <button onClick={() => {nameStateChange(nameState === '마이크' ? '닉' : '마이크' )}}>State Button</button>
+            <h3>{nameState} ({age})</h3>
+
+            <button onClick={() => {
+                nameStateChange(nameState === '마이크' ? '닉' : '마이크' )
+                ageChange(age+1)
+                }}>
+                
+                  State Button
+                </button>
         </div>
     );
 }
