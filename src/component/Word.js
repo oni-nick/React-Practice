@@ -2,7 +2,7 @@ import { useState } from "react";
 
 export default function World( { word : w}){
     const [word, setWord] = useState(w);
-    const [isShow, setIsShow] = useState(false);
+    const [isShow, setIsShow] = useState(true);
     const [isDone, setIsDone] = useState(word.isDone)
 
     function toggleShow(){

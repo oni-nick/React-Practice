@@ -9,6 +9,7 @@ export default function Header() {
             <div className="menu">
                 <a href="create_word" className="link"> 단어추가</a>
                 <a href="create_day" className="link"> Day 추가</a>
+                <a href="all_words" className="link">모든 단어 보기</a>
             </div>
         </div>
 
