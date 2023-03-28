@@ -1,51 +1,72 @@
 {
-    "days" : [
-        {"id" : 1, "day" : 1 },
-        {"id" : 2, "day" : 2 },
-        {"id" : 3, "day" : 3 }
-    ],
-    "words" : [
-        {
-            "id" : 1,
-            "day" : 1,
-            "eng" : "book",
-            "kor" : "책",
-            "isDone" : true
-        },
-        {
-            "id" : 2,
-            "day" : 1,
-            "eng" : "report",
-            "kor" : "보고서",
-            "isDone" : false
-        },
-        {
-            "id" : 3,
-            "day" : 2,
-            "eng" : "system",
-            "kor" : "체계",
-            "isDone" : false
-        },
-        {
-            "id" : 4,
-            "day" : 2,
-            "eng" : "courage",
-            "kor" : "용기",
-            "isDone" : false
-        },
-        {
-            "id" : 5,
-            "day" : 3,
-            "eng" : "apple",
-            "kor" : "사과",
-            "isDone" : false
-        },
-        {
-            "id" : 6,
-            "day" : 3,
-            "eng" : "orange",
-            "kor" : "오렌지",
-            "isDone" : false
-        }
-    ]
+  "days": [
+    {
+      "id": 1,
+      "day": 1
+    },
+    {
+      "id": 2,
+      "day": 2
+    },
+    {
+      "id": 3,
+      "day": 3
+    },
+    {
+      "day": 4,
+      "id": 4
+    },
+    {
+      "day": 5,
+      "id": 5
+    },
+    {
+      "day": 6,
+      "id": 6
+    }
+  ],
+  "words": [
+    {
+      "id": 2,
+      "day": 1,
+      "eng": "report",
+      "kor": "보고서",
+      "isDone": true
+    },
+    {
+      "id": 4,
+      "day": 2,
+      "eng": "courage",
+      "kor": "용기",
+      "isDone": false
+    },
+    {
+      "day": "3",
+      "eng": "Kiwi",
+      "kor": "키위",
+      "isDone": false,
+      "id": 5
+    },
+    {
+      "day": "2",
+      "eng": "korea",
+      "kor": "한국",
+      "isDone": false,
+      "id": 6
+    },
+    {
+      "day": "1",
+      "eng": "japan",
+      "kor": "일본",
+      "isDone": false,
+      "id": 7
+    },
+    {
+      "day": "1",
+      "eng": "Germany",
+      "kor": "독일",
+      "isDone": false,
+      "id": 8
+    }
+  ]
 }
