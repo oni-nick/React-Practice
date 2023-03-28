@@ -7,3 +7,7 @@
  ### 6. 기존 dummy파일을 json-server에 올려, REST API 구현
  ### 7. 단어 추가, 삭제, 수정, 조회 기능 웹에서 구현 (useEffect, fetch() 사용)
 
+## 영어 단어장 메인화면, 상세화면
+![1](https://user-images.githubusercontent.com/48324017/228346916-5f380071-1e84-4642-9b73-883c4fbf4227.PNG)
+
+![2](https://user-images.githubusercontent.com/48324017/228346902-5d6c4a86-2449-4334-a76b-83cfab67bf81.PNG)
